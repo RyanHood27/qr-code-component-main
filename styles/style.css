@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Outfit;
+  background-color: #d6e2f0;
+}
+
+main {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main .qr-code-container {
+  background-color: white;
+  border-radius: 15px;
+  width: 230px;
+  padding: 15px;
+}
+
+main .qr-code-container .image-qr-code {
+  width: 100%;
+  border-radius: 10px;
+}
+
+main .qr-code-container div {
+  margin: 10px 0 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+main .qr-code-container div p {
+  text-align: center;
+}
+
+main .qr-code-container div .top-text {
+  color: #1f3251;
+  font-weight: 700;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+main .qr-code-container div .bottom-text {
+  color: #7b879d;
+  font-size: 12px;
+  margin: 0 5px;
+}
+
+@media (max-width: 375px) {
+  .qr-code-container {
+    box-sizing: content-box;
+    border: 1px solid red;
+  }
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+/*# sourceMappingURL=style.css.map */
